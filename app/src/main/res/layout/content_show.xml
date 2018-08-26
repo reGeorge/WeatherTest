@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.regeorge.weathertest.MainActivity">
+
+    <TextView
+        android:id="@+id/textView_aswerCorrect"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <Button
+        android:id="@+id/button_showAswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="83dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView_question"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="-9dp" />
+
+        <TextView
+            android:id="@+id/textView_aswerA"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <TextView
+            android:id="@+id/textView_aswerB"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="113dp" />
+
+        <TextView
+            android:id="@+id/textView_aswerC"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="165dp" />
+
+        <TextView
+            android:id="@+id/textView_aswerD"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="224dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
