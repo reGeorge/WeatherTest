@@ -4,18 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="hahaaaaa" />
-
-    <TextView
-        android:id="@+id/tv_haha"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="haha" />
-
     <android.support.v4.view.ViewPager
         android:id="@+id/vp_detail"
         android:layout_width="match_parent"

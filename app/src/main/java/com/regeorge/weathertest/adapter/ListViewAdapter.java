@@ -57,6 +57,7 @@ public class ListViewAdapter extends BaseAdapter{
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(context,DetailActivity.class);
+                Log.d("ListViewAdapter", "onClick: context"+context.toString());
                 i.putExtra(QuestionDB.ID,position);
                 context.startActivity(i);
             }
